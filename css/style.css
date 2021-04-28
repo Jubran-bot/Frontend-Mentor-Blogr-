@@ -1,0 +1,300 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* start top area */
+
+.top {
+    background-color: hsl(13, 100%, 72%);
+    background-image: url(../images/bg-pattern-intro.svg);
+    background-repeat: no-repeat;
+    background-position: -510px;
+    border-bottom-left-radius: 85px;
+}
+
+
+
+.contPadd {
+    padding: 40px;
+
+}
+
+.myTittle {
+    width: 13%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sign {
+    width: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+    border-color: #fff;
+    margin-left: 20px;
+}
+
+.logo-text-cont {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+    .logo-text-cont {
+        margin: 0;
+    }
+}
+
+.logo-header {
+    font-size: 3.2rem;
+    color: #f1f1f1;
+    margin-bottom: 18px;
+}
+
+.btn-logo-cont {
+    margin-bottom: 80px;
+}
+
+.logo-para {
+    font-size: 1.1rem;
+    color: #E4E4E4;
+}
+
+.logo-btn {
+    border-radius: 25px;
+    font-size: small;
+    color:hsl(13, 100%, 72%);
+}
+
+/* end top area */
+
+
+/* start future area */
+.future {
+    position: relative;
+    overflow: hidden;
+    min-height: 1000px;
+    background-color: hsl(0deg 0% 98%);
+}
+
+@media (max-width: 576px) {
+    .future {
+        padding-bottom: 100px;
+    }
+}
+
+.future-tittle {
+    position: absolute;
+    top: 100px;
+    width: 75%;
+    color: hsl(209deg 27% 32%);
+}
+
+@media (max-width: 576px) {
+    .future-tittle {
+        position: relative;
+        top: 0;
+        width: 95%;
+        margin-bottom: 40px;
+        color: hsl(209deg 55% 23%)
+    }
+}
+
+.text1 {
+    margin-top: 215px;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 576px) {
+    .text1 {
+        margin: 70px 0 0 0;
+    }
+}
+
+.text1 h3, .text2 h3 {
+    color: hsl(209deg 17% 42%);
+    font-size: x-large;
+    margin-bottom: 22px;
+}
+
+.text1 p, .text2 p {
+    color: hsl(210deg 3% 64%);
+}
+
+.future-img {
+    position: absolute;
+    left: 750px;
+}
+
+
+
+/* end future area */
+
+
+/* start infrastructure area */
+
+.infr {
+    position: relative;
+    background-color: hsl(237deg 18% 23%);
+    background-image: url("../images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.infr-img {
+    z-index: 5;
+    top: -65px;
+    left: 106px;
+}
+
+@media (max-width: 576px) {
+    .infr-img {
+        margin: 70px 0 0 0;
+        max-width: 100%;
+        margin: auto;
+        top: -180px;
+        left: 0;
+    }
+}
+
+
+.text-infr {
+    padding-top: 75px;
+    margin-bottom: 65px;
+}
+
+@media (max-width: 576px) {
+    .text-infr {
+        margin-top: 100px;
+    }
+}
+
+.text-infr h1 {
+    color: hsl(300deg 9% 98%);
+}
+
+@media (max-width: 576px) {
+    .text-infr h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+        color: hsl(60deg 4% 95%);
+    }
+}
+
+.text-infr p {
+    color: hsl(233deg 22% 84%);
+}
+
+
+/* end infrastructure area */
+
+/* start about area */
+
+.about {
+    padding-top: 100px;
+    background-color: hsl(0deg 0% 98%);
+    height: 1000px;
+}
+
+.about img {
+    left: -263px;
+}
+
+.about .mobileD {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.about .text1 {
+    margin-top: 165px;
+}
+
+@media (max-width: 576px) {
+    .about .text1 {
+        padding-top: 350px;
+        margin-top: 0;
+    }
+}
+
+.about h1 {
+    margin-bottom: 18px;
+    color: hsl(208deg 36% 25%);
+}
+
+@media (max-width: 576px) {
+    .about h1, p {
+        text-align: center;
+    }
+
+    .about h1 {
+        font-size: 40px
+    }
+}
+
+
+.about p {
+    color: hsl(223deg 3% 60%);
+}
+
+/* end about area */
+
+/* start footer area */
+
+
+/* end footer area */
+
+footer {
+    padding-top: 20px;
+    background-color: hsl(237, 17%, 21%);
+    border-top-right-radius: 100px;
+}
+
+footer h1 {
+    color: hsl(180deg 33% 99%);
+}
+
+footer h6 {
+    margin-top: 20px;
+    color: hsl(210deg 6% 94%);
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+footer ul li {
+    margin: 5px;
+    color: hsl(240deg 6% 72%);
+}
+
+.attr {
+    background-color:hsl(237, 17%, 21%);
+}
+
+.attribution {
+    background-color: hsl(237, 17%, 21%);
+    color: hsl(210deg 6% 94%);
+}
+
+/* start global area */
+
+@media (max-width: 576px)
+{
+    .container {
+        padding: 0;
+    }
+    .contPadd {
+        padding: 0;
+    }
+}
+
+/* end global area */
